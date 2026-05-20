@@ -1,0 +1,81 @@
+/* Styling Soft Cyberpunk (Vaporwave/Pastel Edition) */
+body {
+    /* Font monospaced yang lebih modern */
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    /* Background ungu pastel sangat gelap/kusam */
+    background-color: #2e1a3d; 
+    /* Warna teks utama ungu muda pucat */
+    color: #dec8ff;
+    margin: 0;
+    padding: 20px;
+    /* Efek scanlines halus khas monitor lama */
+    background-image: linear-gradient(rgba(18, 18, 18, 0.05) 50%, transparent 50%);
+    background-size: 100% 4px;
+}
+
+/* Container utama - Glassmorphism Halus */
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    /* Background kartu transparan dengan rona ungu */
+    background: rgba(45, 30, 60, 0.7);
+    padding: 30px;
+    /* Siku tetap tegas (Cyberpunk) tapi diberi rounded sangat sedikit */
+    border-radius: 4px;
+    /* Border Neon Pastel (Pink-Kuning kusam) */
+    border: 2px solid #ffb3ff;
+    /* Glow lembut */
+    box-shadow: 0 0 15px rgba(255, 179, 255, 0.5), inset 0 0 10px rgba(179, 255, 255, 0.2);
+    /* Sedikit efek blur di belakang kartu */
+    backdrop-filter: blur(5px);
+}
+
+/* Header utama - Gradasi Pastel */
+h1 {
+    /* Gradasi dari Biru Muda ke Pink Muda */
+    background: linear-gradient(90deg, #b3ffff, #ffb3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* Bayangan teks lembut */
+    text-shadow: 2px 2px 0px rgba(46, 26, 61, 0.5);
+    margin-bottom: 15px;
+}
+
+/* Paragraf - Putih Kusam agar mudah dibaca */
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #f1e4ff;
+}
+
+/* Garis pemisah - Neon Kusam */
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #b3ffff, transparent);
+    margin: 25px 0;
+    opacity: 0.7;
+}
+
+/* Greeting / Footer kecil */
+small {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    /* Kuning Pastel kusam */
+    color: #ffffb3;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+/* Efek Hover untuk interaksi */
+.card:hover {
+    border-color: #b3ffff;
+    box-shadow: 0 0 25px rgba(179, 255, 255, 0.6), inset 0 0 10px rgba(255, 179, 255, 0.3);
+    transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,72 @@
+[
+  { 
+    "kode_produk": "BRG01", 
+    "nama_produk": "Nasi Goreng Spesial", 
+    "harga": 25000, 
+    "stok": 10,
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG02", 
+    "nama_produk": "Ayam Bakar Madu", 
+    "harga": 35000, 
+    "stok": 0,
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG03", 
+    "nama_produk": "Es Teh Manis", 
+    "harga": 5000, 
+    "stok": 50,
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG04", 
+    "nama_produk": "Sate Ayam Madura", 
+    "harga": 30000, 
+    "stok": 15,
+    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG05", 
+    "nama_produk": "Gado-Gado Siram", 
+    "harga": 22000, 
+    "stok": 12,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG06", 
+    "nama_produk": "Rendang Daging", 
+    "harga": 45000, 
+    "stok": 8,
+    "image": "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG07", 
+    "nama_produk": "Bakso Urat Wonogiri", 
+    "harga": 18000, 
+    "stok": 20,
+    "image": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG08", 
+    "nama_produk": "Soto Ayam Lamongan", 
+    "harga": 20000, 
+    "stok": 15,
+    "image": "https://images.unsplash.com/photo-1572656631137-7935297eff55?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG09", 
+    "nama_produk": "Mie Ayam Jamur", 
+    "harga": 15000, 
+    "stok": 25,
+    "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG10", 
+    "nama_produk": "Sop Buntut", 
+    "harga": 65000, 
+    "stok": 5,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80"
+  }
+]

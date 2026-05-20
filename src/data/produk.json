@@ -1,0 +1,44 @@
+[
+  { 
+    "kode_produk": "BRG01", 
+    "nama_produk": "Nasi Goreng Spesial", 
+    "harga": 25000, 
+    "stok": 10,
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG02", 
+    "nama_produk": "Ayam Bakar Madu", 
+    "harga": 35000, 
+    "stok": 0,
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG03", 
+    "nama_produk": "Es Teh Manis", 
+    "harga": 5000, 
+    "stok": 50,
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG04", 
+    "nama_produk": "Sate Ayam Madura", 
+    "harga": 30000, 
+    "stok": 15,
+    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG05", 
+    "nama_produk": "Gado-Gado Siram", 
+    "harga": 22000, 
+    "stok": 12,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+  },
+  { 
+    "kode_produk": "BRG06", 
+    "nama_produk": "Rendang Daging", 
+    "harga": 45000, 
+    "stok": 8,
+    "image": "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?auto=format&fit=crop&w=800&q=80"
+  }
+]

@@ -1,0 +1,43 @@
+// export default function PageHeader() {
+//     return (
+//         <div id="pageheader-container" className="flex items-center justify-between p-4">
+//             <div id="pageheader-left" className="flex flex-col">
+//                 <span id="page-title" className="text-3xl font-semibold">
+//                     Dashboard
+//                 </span>
+//                 <div id="breadcrumb-links" className="flex items-center font-medium space-x-2 mt-2">
+//                     <span id="breadcrumb-home" className="text-gray-500">Dashboard</span>
+//                     <span id="breadcrumb-separator" className="text-gray-500">/</span>
+//                     <span id="breadcrumb-current" className="text-gray-500">Order List</span>
+//                 </div>
+//             </div>
+//             <div id="action-button">
+//                 <button 
+//                     id="add-button" 
+//                     className="bg-hijau text-white px-6 py-2 rounded-lg font-semibold shadow-md 
+//                     hover:bg-green-700 transition-all"
+//                 >
+//                     Add Button
+//                 </button>
+//             </div>
+//         </div>
+//     );
+// }
+
+export default function PageHeader({ title, breadcrumb, children }) {
+  return (
+    <div className="flex items-center justify-between p-6 bg-transparent">
+      <div className="flex flex-col">
+        <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
+        <div className="flex items-center space-x-2 mt-1 text-sm font-medium">
+          <span className="text-gray-400">Dashboard</span>
+          <span className="text-gray-300">/</span>
+          <span className="text-hijau">{breadcrumb}</span>
+        </div>
+      </div>
+      <div className="action-area">
+        {children}
+      </div>
+    </div>
+  );
+}

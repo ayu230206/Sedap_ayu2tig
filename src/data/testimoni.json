@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ani Wijaya",
+    "avatar": "https://api.dicebear.com/7.x/lorelei/svg?seed=Ani",
+    "review": "Layanan cepat dan rasa makanan sangat konsisten setiap kali pesan."
+  },
+  {
+    "id": 2,
+    "name": "Budi Santoso",
+    "avatar": "https://api.dicebear.com/7.x/lorelei/svg?seed=Budi",
+    "review": "Pilihan menu yang beragam, sangat cocok untuk makan siang kantor."
+  },
+  {
+    "id": 3,
+    "name": "Citra Lestari",
+    "avatar": "https://api.dicebear.com/7.x/lorelei/svg?seed=Citra",
+    "review": "Sangat membantu untuk pemesanan rutin mingguan keluarga kami."
+  },
+  {
+    "id": 4,
+    "name": "Doni Setiawan",
+    "avatar": "https://api.dicebear.com/7.x/lorelei/svg?seed=Doni",
+    "review": "Kualitas bahan premium, harga sangat worth it dengan rasanya."
+  },
+  {
+    "id": 5,
+    "name": "Elisa Putri",
+    "avatar": "https://api.dicebear.com/7.x/lorelei/svg?seed=Elisa",
+    "review": "Aplikasi yang sangat user-friendly dan responsif. Suka banget!"
+  }
+]
