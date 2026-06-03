@@ -12,6 +12,8 @@ const GuestLayout = React.lazy(() => import("./layouts/GuestLayout")); // ✅ Gu
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const Customers = React.lazy(() => import("./pages/Customers"));
+const Products = React.lazy(() => import("./pages/Products"));
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 const ErrorPage = React.lazy(() => import("./pages/ErrorPage"));
 
 // Pages - Auth
@@ -38,10 +40,11 @@ export default function App() {
 
         {/* 2. Admin/Main Routes */}
         <Route element={<MainLayout />}>
-          {/* Dashboard dipindah ke path spesifik agar tidak bentrok dengan "/" guest */}
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
+          <Route path="Products" element={<Products />} />
+          <Route path="Products/:id" element={<ProductDetail />} /> 
         </Route>
 
         {/* 3. Auth Routes */}

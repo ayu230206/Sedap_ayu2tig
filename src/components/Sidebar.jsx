@@ -1,7 +1,8 @@
+import { MdFastfood } from "react-icons/md"; 
 import { BiErrorAlt } from "react-icons/bi"; 
 import { IoMdPeople } from "react-icons/io"; 
 import { FaShoppingBag } from "react-icons/fa"; 
-import { RxDashboard } from "react-icons/rx"; 
+import { RxDashboard } from "react-icons/rx";
 import { FaPlus } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 export default function Sidebar() {
@@ -27,7 +28,7 @@ export default function Sidebar() {
                 <ul id="menu-list" className="space-y-3">
                     <li>
                         <NavLink id="menu-1" 
-                        to="/"
+                        to="/dashboard"
                         className={menuClass}>
                             <RxDashboard className="mr-4 text-xl" />
                             Dashboard
@@ -49,14 +50,22 @@ export default function Sidebar() {
                             Customers
                         </NavLink>
                     </li>
-                    {/* <li>
+                    <li>
                         <NavLink id="menu-4" 
                          to="/ErrorPage"
                          className={menuClass}>
                             <BiErrorAlt className="mr-4 text-xl"/>
                             Error Page
                         </NavLink>
-                    </li> */}
+                    </li>
+                    <li>
+                        <NavLink id="menu-5"
+                         to="/Products"
+                         className={menuClass}>
+                            <MdFastfood className="mr-4 text-xl" /> 
+                            Products
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
             {/* Footer */}
