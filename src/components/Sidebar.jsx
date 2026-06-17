@@ -1,3 +1,4 @@
+import { SiDaisyui } from "react-icons/si"; 
 import { MdFastfood } from "react-icons/md"; 
 import { BiErrorAlt } from "react-icons/bi"; 
 import { IoMdPeople } from "react-icons/io"; 
@@ -64,6 +65,14 @@ export default function Sidebar() {
                          className={menuClass}>
                             <MdFastfood className="mr-4 text-xl" /> 
                             Products
+                        </NavLink>
+                    </li>
+                     <li>
+                        <NavLink id="menu-5"
+                         to="/DaisyUI"
+                         className={menuClass}>
+                            <SiDaisyui  className="mr-4 text-xl" /> 
+                            DaisyUI 
                         </NavLink>
                     </li>
                 </ul>

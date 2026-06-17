@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom"; // ✅ Navigate ditambahkan
 import Loading from "./components/Loading";
 import "./assets/tailwind.css";
-
+import DaisyUI from "./pages/DaisyUI";
 // Layouts
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
@@ -15,6 +15,7 @@ const Customers = React.lazy(() => import("./pages/Customers"));
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 const ErrorPage = React.lazy(() => import("./pages/ErrorPage"));
+
 
 // Pages - Auth
 const Login = React.lazy(() => import("./auth/Login"));
@@ -44,7 +45,8 @@ export default function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="Products" element={<Products />} />
-          <Route path="Products/:id" element={<ProductDetail />} /> 
+          <Route path="Products/:id" element={<ProductDetail />} />
+          <Route path="DaisyUI" element={<DaisyUI />} /> 
         </Route>
 
         {/* 3. Auth Routes */}
